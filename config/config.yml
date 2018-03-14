@@ -1,0 +1,17 @@
+celery:
+    settings:
+        broker_url: 'specify yours in local config'
+        result_backend: 'specify yours in local config'
+
+    periodic_tasks:
+        happy_mondays:
+            hour: 7
+            minute: 30
+            day_of_week: 1
+        hello:
+            # every hour
+            hour: '*/1'
+            # every minute
+            minute: '*/1'
+        world:
+            seconds: 65
