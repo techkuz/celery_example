@@ -1,0 +1,6 @@
+# Private config
+config.local.yml
+
+# Celery
+celerybeat-schedule.*
+celerybeat.*
