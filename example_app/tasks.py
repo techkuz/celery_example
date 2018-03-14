@@ -1,7 +1,7 @@
-from .celery import app
+from main_app.celery import app
 
 @app.task
-def test(arg):
+def test_task(arg):
     """
     Prints input arg
     """
