@@ -4,3 +4,7 @@ config.local.yml
 # Celery
 celerybeat-schedule.*
 celerybeat.*
+
+.idea
+
+__pycache__
