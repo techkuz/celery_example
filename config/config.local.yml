@@ -1,0 +1,6 @@
+# don't upload this config to your GIT, keep it private
+celery:
+    settings:
+        broker_url: ''  # e.g. 'redis://localhost'
+        result_backend: ''  # e.g. 'redis://localhost'
+
